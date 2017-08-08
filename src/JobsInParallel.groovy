@@ -1,5 +1,7 @@
-// in this array we'll place the jobs that we wish to run
+package org.sample;
+
 def performOperation () {
+// in this array we'll place the jobs that we wish to run
     def branches = ["time-tracker"]
 
 //running the job 4 times concurrently
