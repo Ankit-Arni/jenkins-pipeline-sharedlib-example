@@ -1,5 +1,5 @@
 // in this array we'll place the jobs that we wish to run
-def performOperation {
+def performOperation () {
     def branches = ["time-tracker"]
 
 //running the job 4 times concurrently
